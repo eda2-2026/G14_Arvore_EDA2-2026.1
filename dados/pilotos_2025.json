@@ -1,0 +1,107 @@
+[
+    {
+        "nome": "Lando Norris",
+        "equipe": "McLaren",
+        "pontos": 423
+    },
+    {
+        "nome": "Max Verstappen",
+        "equipe": "Red Bull",
+        "pontos": 421
+    },
+    {
+        "nome": "Oscar Piastri",
+        "equipe": "McLaren",
+        "pontos": 410
+    },
+    {
+        "nome": "George Russell",
+        "equipe": "Mercedes",
+        "pontos": 319
+    },
+    {
+        "nome": "Charles Leclerc",
+        "equipe": "Ferrari",
+        "pontos": 242
+    },
+    {
+        "nome": "Lewis Hamilton",
+        "equipe": "Ferrari",
+        "pontos": 156
+    },
+    {
+        "nome": "Andrea Kimi Antonelli",
+        "equipe": "Mercedes",
+        "pontos": 150
+    },
+    {
+        "nome": "Alexander Albon",
+        "equipe": "Williams",
+        "pontos": 73
+    },
+    {
+        "nome": "Carlos Sainz",
+        "equipe": "Williams",
+        "pontos": 64
+    },
+    {
+        "nome": "Fernando Alonso",
+        "equipe": "Aston Martin",
+        "pontos": 56
+    },
+    {
+        "nome": "Nico Hulkenberg",
+        "equipe": "Kick Sauber",
+        "pontos": 51
+    },
+    {
+        "nome": "Isack Hadjar",
+        "equipe": "Racing Bulls",
+        "pontos": 51
+    },
+    {
+        "nome": "Oliver Bearman",
+        "equipe": "Haas",
+        "pontos": 41
+    },
+    {
+        "nome": "Esteban Ocon",
+        "equipe": "Haas",
+        "pontos": 38
+    },
+    {
+        "nome": "Liam Lawson",
+        "equipe": "Racing Bulls",
+        "pontos": 38
+    },
+    {
+        "nome": "Lance Stroll",
+        "equipe": "Aston Martin",
+        "pontos": 33
+    },
+    {
+        "nome": "Yuki Tsunoda",
+        "equipe": "Red Bull",
+        "pontos": 33
+    },
+    {
+        "nome": "Pierre Gasly",
+        "equipe": "Alpine",
+        "pontos": 22
+    },
+    {
+        "nome": "Gabriel Bortoleto",
+        "equipe": "Kick Sauber",
+        "pontos": 19
+    },
+    {
+        "nome": "Franco Colapinto",
+        "equipe": "Alpine",
+        "pontos": 0
+    },
+    {
+        "nome": "Jack Doohan",
+        "equipe": "Alpine",
+        "pontos": 0
+    }
+]
