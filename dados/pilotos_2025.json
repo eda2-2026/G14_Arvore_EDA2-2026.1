@@ -65,23 +65,23 @@
         "pontos": 41
     },
     {
-        "nome": "Esteban Ocon",
-        "equipe": "Haas",
-        "pontos": 38
-    },
-    {
         "nome": "Liam Lawson",
         "equipe": "Racing Bulls",
         "pontos": 38
     },
     {
-        "nome": "Lance Stroll",
-        "equipe": "Aston Martin",
-        "pontos": 33
+        "nome": "Esteban Ocon",
+        "equipe": "Haas",
+        "pontos": 38
     },
     {
         "nome": "Yuki Tsunoda",
         "equipe": "Red Bull",
+        "pontos": 33
+    },
+    {
+        "nome": "Lance Stroll",
+        "equipe": "Aston Martin",
         "pontos": 33
     },
     {
@@ -95,12 +95,12 @@
         "pontos": 19
     },
     {
-        "nome": "Franco Colapinto",
+        "nome": "Jack Doohan",
         "equipe": "Alpine",
         "pontos": 0
     },
     {
-        "nome": "Jack Doohan",
+        "nome": "Franco Colapinto",
         "equipe": "Alpine",
         "pontos": 0
     }

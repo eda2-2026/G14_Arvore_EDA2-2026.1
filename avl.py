@@ -6,7 +6,6 @@ class No:
         self.dir = None
         self.altura = 1
 
-
 class AVL:
     def __init__(self):
         self.raiz = None
@@ -51,14 +50,11 @@ class AVL:
 
         if balance > 1 and chave < raiz.esq.chave:
             return self.rotacao_direita(raiz)
-
         if balance < -1 and chave > raiz.dir.chave:
             return self.rotacao_esquerda(raiz)
-
         if balance > 1 and chave > raiz.esq.chave:
             raiz.esq = self.rotacao_esquerda(raiz.esq)
             return self.rotacao_direita(raiz)
-
         if balance < -1 and chave < raiz.dir.chave:
             raiz.dir = self.rotacao_direita(raiz.dir)
             return self.rotacao_esquerda(raiz)
@@ -68,32 +64,26 @@ class AVL:
     def inserir_piloto(self, piloto):
         self.raiz = self.inserir(self.raiz, piloto)
 
-    def ranking_decrescente(self, no, resultado):
-        if no:
-            self.ranking_decrescente(no.dir, resultado)
-            resultado.append(no.piloto)
-            self.ranking_decrescente(no.esq, resultado)
-
     def listar_ranking(self):
         resultado = []
-        self.ranking_decrescente(self.raiz, resultado)
+
+        def percorrer(no):
+            if no:
+                percorrer(no.dir)
+                resultado.append(no.piloto)
+                percorrer(no.esq)
+
+        percorrer(self.raiz)
         return resultado
 
-    def buscar_nome(self, no, nome):
-        if not no:
-            return None
-
-        if no.piloto.nome.lower() == nome.lower():
-            return no.piloto
-
-        encontrado = self.buscar_nome(no.esq, nome)
-        if encontrado:
-            return encontrado
-
-        return self.buscar_nome(no.dir, nome)
-
     def buscar(self, nome):
-        return self.buscar_nome(self.raiz, nome)
+        def aux(no):
+            if not no:
+                return None
+            if no.piloto.nome.lower() == nome.lower():
+                return no.piloto
+            return aux(no.esq) or aux(no.dir)
+        return aux(self.raiz)
 
     def quantidade_nos(self, no):
         if not no:
