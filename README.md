@@ -6,8 +6,8 @@
 
 | Matrícula | Aluno |
 |------------|------------|
-| 21/1030925 | Amanda Gonçalves Sobrinho Abreu |
-| 19/0112093 | Lucas Freire Lopes |
+| 211030925 | Amanda Gonçalves Sobrinho Abreu |
+| 190112093 | Lucas Freire Lopes |
 
 # Sistema de Classificação da Fórmula 1 utilizando Árvore AVL
 
