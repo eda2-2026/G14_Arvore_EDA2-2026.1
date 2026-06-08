@@ -2,106 +2,148 @@
     {
         "nome": "Lando Norris",
         "equipe": "McLaren",
-        "pontos": 423
+        "pontos": 423,
+        "podios": 22,
+        "poles": 8
     },
     {
         "nome": "Max Verstappen",
         "equipe": "Red Bull",
-        "pontos": 421
+        "pontos": 421,
+        "podios": 18,
+        "poles": 9
     },
     {
         "nome": "Oscar Piastri",
         "equipe": "McLaren",
-        "pontos": 410
+        "pontos": 410,
+        "podios": 19,
+        "poles": 8
     },
     {
         "nome": "George Russell",
         "equipe": "Mercedes",
-        "pontos": 319
+        "pontos": 319,
+        "podios": 12,
+        "poles": 2
     },
     {
         "nome": "Charles Leclerc",
         "equipe": "Ferrari",
-        "pontos": 242
+        "pontos": 242,
+        "podios": 7,
+        "poles": 1
     },
     {
         "nome": "Lewis Hamilton",
         "equipe": "Ferrari",
-        "pontos": 156
+        "pontos": 156,
+        "podios": 2,
+        "poles": 1
     },
     {
         "nome": "Andrea Kimi Antonelli",
         "equipe": "Mercedes",
-        "pontos": 150
+        "pontos": 150,
+        "podios": 4,
+        "poles": 1
     },
     {
         "nome": "Alexander Albon",
         "equipe": "Williams",
-        "pontos": 73
+        "pontos": 73,
+        "podios": 0,
+        "poles": 0
     },
     {
         "nome": "Carlos Sainz",
         "equipe": "Williams",
-        "pontos": 64
+        "pontos": 64,
+        "podios": 3,
+        "poles": 0
     },
     {
         "nome": "Fernando Alonso",
         "equipe": "Aston Martin",
-        "pontos": 56
+        "pontos": 56,
+        "podios": 0,
+        "poles": 0
     },
     {
         "nome": "Nico Hulkenberg",
         "equipe": "Kick Sauber",
-        "pontos": 51
+        "pontos": 51,
+        "podios": 1,
+        "poles": 0
     },
     {
         "nome": "Isack Hadjar",
         "equipe": "Racing Bulls",
-        "pontos": 51
+        "pontos": 51,
+        "podios": 1,
+        "poles": 0
     },
     {
         "nome": "Oliver Bearman",
         "equipe": "Haas",
-        "pontos": 41
+        "pontos": 41,
+        "podios": 0,
+        "poles": 0
     },
     {
         "nome": "Liam Lawson",
         "equipe": "Racing Bulls",
-        "pontos": 38
+        "pontos": 38,
+        "podios": 0,
+        "poles": 0
     },
     {
         "nome": "Esteban Ocon",
         "equipe": "Haas",
-        "pontos": 38
+        "pontos": 38,
+        "podios": 0,
+        "poles": 0
     },
     {
         "nome": "Yuki Tsunoda",
         "equipe": "Red Bull",
-        "pontos": 33
+        "pontos": 33,
+        "podios": 0,
+        "poles": 0
     },
     {
         "nome": "Lance Stroll",
         "equipe": "Aston Martin",
-        "pontos": 33
+        "pontos": 33,
+        "podios": 0,
+        "poles": 0
     },
     {
         "nome": "Pierre Gasly",
         "equipe": "Alpine",
-        "pontos": 22
+        "pontos": 22,
+        "podios": 0,
+        "poles": 0
     },
     {
         "nome": "Gabriel Bortoleto",
         "equipe": "Kick Sauber",
-        "pontos": 19
+        "pontos": 19,
+        "podios": 0,
+        "poles": 0
     },
     {
         "nome": "Jack Doohan",
         "equipe": "Alpine",
-        "pontos": 0
+        "pontos": 0,
+        "podios": 0,
+        "poles": 0
     },
     {
         "nome": "Franco Colapinto",
         "equipe": "Alpine",
-        "pontos": 0
+        "pontos": 0,
+        "podios": 0,
+        "poles": 0
     }
 ]

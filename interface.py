@@ -20,7 +20,7 @@ class App:
 
         for p in dados:
             self.arvore.inserir_piloto(
-                Piloto(p["nome"], p["equipe"], p["pontos"])
+                Piloto(p["nome"], p["equipe"], p["pontos"], p["podios"], p["poles"])
             )
 
     def criar_componentes(self):
@@ -74,7 +74,7 @@ class App:
 
         if piloto:
             self.resultado.config(
-                text=f"Nome: {piloto.nome}\nEquipe: {piloto.equipe}\nPontos: {piloto.pontos}"
+                text=f"Nome: {piloto.nome}\nEquipe: {piloto.equipe}\nPontos: {piloto.pontos}\nPódios: {piloto.podios}\nPole Positions: {piloto.poles}"
             )
         else:
             self.resultado.config(text="Piloto não encontrado.")
@@ -85,7 +85,7 @@ class App:
 
         tabela = ttk.Treeview(
             janela,
-            columns=("pos", "nome", "equipe", "pontos"),
+            columns=("pos", "nome", "equipe", "pontos", "podios", "poles"),
             show="headings"
         )
 
@@ -93,14 +93,16 @@ class App:
             ("pos", "Posição"),
             ("nome", "Piloto"),
             ("equipe", "Equipe"),
-            ("pontos", "Pontos")
+            ("pontos", "Pontos"),
+            ("podios", "Pódios"),
+            ("poles", "Pole Positions")
         ]:
             tabela.heading(col, text=txt)
 
         tabela.pack(fill="both", expand=True)
 
         for pos, piloto in enumerate(self.arvore.listar_ranking(), start=1):
-            tabela.insert("", "end", values=(pos, piloto.nome, piloto.equipe, piloto.pontos))
+            tabela.insert("", "end", values=(pos, piloto.nome, piloto.equipe, piloto.pontos, piloto.podios, piloto.poles))
 
     def mostrar_estatisticas(self):
         messagebox.showinfo(
