@@ -1,7 +1,5 @@
 # G14_Arvore_EDA2-2026.1
 
-# G14_Arvore_EDA2-2026.1
-
 ## Alunos
 
 | Matrícula | Aluno |
@@ -151,5 +149,4 @@ python interface.py
 
 ## Vídeo
 
-
-https://youtu.be/seu-video
+[Link para o vídeo.](https://youtu.be/W5NtmdSMSFw)
